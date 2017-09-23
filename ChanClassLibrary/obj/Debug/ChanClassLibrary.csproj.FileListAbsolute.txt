@@ -1,0 +1,6 @@
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\bin\Debug\ChanClassLibrary.dll
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\bin\Debug\ChanClassLibrary.pdb
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.dll
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.pdb
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.csproj.GenerateResource.Cache
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.txtBtn.resources

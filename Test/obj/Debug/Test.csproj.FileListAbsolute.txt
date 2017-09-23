@@ -1,0 +1,11 @@
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\obj\Debug\Test.Form1.resources
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\obj\Debug\Test.Properties.Resources.resources
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\bin\Debug\Test.exe.config
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\bin\Debug\Test.exe
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\bin\Debug\Test.pdb
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\bin\Debug\ChanClassLibrary.dll
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\bin\Debug\ChanClassLibrary.pdb
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\obj\Debug\Test.exe
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\Test\obj\Debug\Test.pdb

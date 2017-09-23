@@ -1,0 +1,4 @@
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\bin\Release\ChanClassLibrary.dll
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\bin\Release\ChanClassLibrary.pdb
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Release\ChanClassLibrary.dll
+c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Release\ChanClassLibrary.pdb
