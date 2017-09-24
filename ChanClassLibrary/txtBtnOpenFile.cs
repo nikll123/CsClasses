@@ -25,6 +25,17 @@ namespace ChanClassLibrary
             }
         }
 
+        public string Filter
+        {
+            get
+            {
+                return openFileDialog1.Filter ;
+            }
+            set
+            {
+                openFileDialog1.Filter = value;
+            }
 
+        }
     }
 }

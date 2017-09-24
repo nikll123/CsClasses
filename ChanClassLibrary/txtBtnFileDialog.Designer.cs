@@ -1,7 +1,5 @@
-﻿namespace ChanClassLibrary
-{
-    partial class txtBtnOpenFile
-    {
+﻿namespace ChanClassLibrary {
+    partial class txtBtnFileDialog {
         /// <summary> 
         /// Required designer variable.
         /// </summary>
@@ -11,10 +9,8 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
+        protected override void Dispose(bool disposing) {
+            if (disposing && (components != null)) {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -26,20 +22,15 @@
         /// Required method for Designer support - do not modify 
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
-        {
+        private void InitializeComponent() {
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
-            // btn
-            // 
-            this.btn.Click += new System.EventHandler(this.btn_Click);
-            // 
-            // txtBtnOpenFile
+            // txtBtnFileDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "txtBtnOpenFile";
+            this.Name = "txtBtnFileDialog";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -47,6 +38,6 @@
 
         #endregion
 
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        protected System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

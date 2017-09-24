@@ -29,4 +29,13 @@ namespace ChanClassLibrary
     {
         public btnCancel(): base("Cancel"){ }
     }
+
+    public class btnClose : btn {
+        public btnClose() : base("Close") { }
+        protected override void OnClick(EventArgs e) {
+            base.OnClick(e);
+            (this.FindForm()).Close();
+        }
+    }
+
 }
