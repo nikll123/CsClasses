@@ -46,6 +46,11 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="txt.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -61,10 +66,26 @@
     <Compile Include="txtBtnOpenFile.Designer.cs">
       <DependentUpon>txtBtnOpenFile.cs</DependentUpon>
     </Compile>
+    <Compile Include="txtBtnOpenFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="txtBtnOpenFolder.Designer.cs">
+      <DependentUpon>txtBtnOpenFolder.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="txtBtn.resx">
       <DependentUpon>txtBtn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="txtBtnOpenFile.resx">
+      <DependentUpon>txtBtnOpenFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="txtBtnOpenFolder.resx">
+      <DependentUpon>txtBtnOpenFolder.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

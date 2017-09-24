@@ -69,7 +69,7 @@
 
         #endregion
 
-        private ChanClassLibrary.txt txt;
-        private ChanClassLibrary.btn btn;
+        protected txt txt;
+        protected btn btn;
     }
 }

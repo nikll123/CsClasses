@@ -10,18 +10,19 @@ using System.Windows.Forms;
 
 namespace ChanClassLibrary
 {
-     public partial class txtBtn : UserControl
+    public partial class txtBtnOpenFolder : txtBtn
     {
-        int originalHeight = 0;
-        public txtBtn()
+        public txtBtnOpenFolder()
         {
             InitializeComponent();
-            originalHeight = this.Height;
         }
-        
-        private void txtbtn_Resize(object sender, EventArgs e)
+
+        private void btn_Click(object sender, EventArgs e)
         {
-            this.Height = originalHeight;
+            if (DialogResult.OK ==  folderBrowserDialog1.ShowDialog(this.FindForm ()))
+            {
+                txt.Text = folderBrowserDialog1.SelectedPath;
+            }
         }
     }
 }

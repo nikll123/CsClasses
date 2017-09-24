@@ -1,6 +1,6 @@
 ﻿namespace ChanClassLibrary
 {
-    partial class txtBtnOpenFile
+    partial class txtBtnOpenFolder
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,22 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
             // btn
             // 
             this.btn.Click += new System.EventHandler(this.btn_Click);
             // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // txtBtnOpenFile
+            // txtBtnOpenFolder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Name = "txtBtnOpenFile";
+            this.Name = "txtBtnOpenFolder";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -51,6 +47,6 @@
 
         #endregion
 
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }

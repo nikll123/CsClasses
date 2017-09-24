@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 
 namespace ChanClassLibrary
 {
@@ -16,5 +8,23 @@ namespace ChanClassLibrary
         {
             InitializeComponent();
         }
+
+        private void btn_Click(object sender, System.EventArgs e)
+        {
+            if (DialogResult.OK == openFileDialog1.ShowDialog(this.FindForm()))
+            {
+                this.txt.Text = openFileDialog1.FileName;
+            }
+        }
+
+        public string FileName
+        {
+            get
+            {
+                return txt.Text;
+            }
+        }
+
+
     }
 }

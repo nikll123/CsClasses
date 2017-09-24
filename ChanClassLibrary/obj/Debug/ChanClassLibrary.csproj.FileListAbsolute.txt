@@ -4,3 +4,6 @@ c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanCla
 c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.pdb
 c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.csproj.GenerateResource.Cache
 c:\users\вася\documents\visual studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.txtBtn.resources
+C:\Users\Вася\Documents\Visual Studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.Properties.Resources.resources
+C:\Users\Вася\Documents\Visual Studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.txtBtnOpenFile.resources
+C:\Users\Вася\Documents\Visual Studio 2017\Projects\ChanClassLibrary\ChanClassLibrary\obj\Debug\ChanClassLibrary.txtBtnOpenFolder.resources
