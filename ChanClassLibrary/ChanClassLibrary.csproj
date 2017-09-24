@@ -57,15 +57,7 @@
     <Compile Include="txtBtn.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="txtBtn.Designer.cs">
-      <DependentUpon>txtBtn.cs</DependentUpon>
-    </Compile>
-    <Compile Include="txtBtnOpenFile.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="txtBtnOpenFile.Designer.cs">
-      <DependentUpon>txtBtnOpenFile.cs</DependentUpon>
-    </Compile>
+    <Compile Include="txtBtnOpenFile.cs" />
     <Compile Include="txtBtnOpenFolder.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -75,26 +67,14 @@
     <Compile Include="txtBtnFileDialog.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="txtBtnFileDialog.Designer.cs">
-      <DependentUpon>txtBtnFileDialog.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="txtBtn.resx">
-      <DependentUpon>txtBtn.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="txtBtnOpenFile.resx">
-      <DependentUpon>txtBtnOpenFile.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="txtBtnOpenFolder.resx">
       <DependentUpon>txtBtnOpenFolder.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="txtBtnFileDialog.resx">
-      <DependentUpon>txtBtnFileDialog.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

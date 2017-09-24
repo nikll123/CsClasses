@@ -32,8 +32,8 @@
             this.btnCancel1 = new ChanClassLibrary.btnCancel();
             this.btnOk1 = new ChanClassLibrary.btnOk();
             this.btnOk2 = new ChanClassLibrary.btnOk();
-            this.txtBtnOpenFile1 = new ChanClassLibrary.txtBtnOpenFile();
             this.txtBtnOpenFolder1 = new ChanClassLibrary.txtBtnOpenFolder();
+            this.txtBtnOpenFile2 = new ChanClassLibrary.txtBtnOpenFile();
             this.SuspendLayout();
             // 
             // btn1
@@ -72,31 +72,32 @@
             this.btnOk2.Text = "btnOk2";
             this.btnOk2.UseVisualStyleBackColor = true;
             // 
-            // txtBtnOpenFile1
-            // 
-            this.txtBtnOpenFile1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBtnOpenFile1.Location = new System.Drawing.Point(80, 159);
-            this.txtBtnOpenFile1.Name = "txtBtnOpenFile1";
-            this.txtBtnOpenFile1.Size = new System.Drawing.Size(129, 26);
-            this.txtBtnOpenFile1.TabIndex = 4;
-            // 
             // txtBtnOpenFolder1
             // 
             this.txtBtnOpenFolder1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtBtnOpenFolder1.Location = new System.Drawing.Point(80, 192);
+            this.txtBtnOpenFolder1.Location = new System.Drawing.Point(80, 212);
             this.txtBtnOpenFolder1.Name = "txtBtnOpenFolder1";
-            this.txtBtnOpenFolder1.Size = new System.Drawing.Size(129, 26);
+            this.txtBtnOpenFolder1.Size = new System.Drawing.Size(157, 26);
             this.txtBtnOpenFolder1.TabIndex = 5;
+            // 
+            // txtBtnOpenFile2
+            // 
+            this.txtBtnOpenFile2.CheckFileExists = true;
+            this.txtBtnOpenFile2.FileName = "";
+            this.txtBtnOpenFile2.Filter = "";
+            this.txtBtnOpenFile2.Location = new System.Drawing.Point(80, 180);
+            this.txtBtnOpenFile2.Name = "txtBtnOpenFile2";
+            this.txtBtnOpenFile2.Size = new System.Drawing.Size(157, 26);
+            this.txtBtnOpenFile2.TabIndex = 6;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.txtBtnOpenFile2);
             this.Controls.Add(this.txtBtnOpenFolder1);
-            this.Controls.Add(this.txtBtnOpenFile1);
             this.Controls.Add(this.btnOk2);
             this.Controls.Add(this.btnOk1);
             this.Controls.Add(this.btnCancel1);
@@ -115,6 +116,7 @@
         private ChanClassLibrary.btnOk btnOk2;
         private ChanClassLibrary.txtBtnOpenFile txtBtnOpenFile1;
         private ChanClassLibrary.txtBtnOpenFolder txtBtnOpenFolder1;
+        private ChanClassLibrary.txtBtnOpenFile txtBtnOpenFile2;
     }
 }
 
